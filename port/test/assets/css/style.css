@@ -1,0 +1,273 @@
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+    color: #4a4a4a;
+}
+
+
+.form{
+	padding-bottom: 50px;
+}
+
+.navbar-default {
+	
+	background-color: transparent;
+	border-color: transparent;
+}
+.navbar-default .navbar-nav>li>a{
+	color:white;
+}
+
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default.navbar-nav>li>a:focus
+{
+	background-color: black;
+	color: white;
+	border-radius: 2px;
+}
+	
+
+}
+.navbar-default.navbar-nav>.active>a,
+.navbar-default.navbar-nav>.active>a:hover,
+.navbar-default.navbar-nav>.active>a:focus{
+	color: white;
+	background-color: white;
+
+}
+.navbar-default.navbar-toggle{
+	border-color: blue;
+	background-color: blue;
+}
+
+.navbar-default.navbar-toggle:hover,
+.navbar-default.navbar-toggle:focus{
+	background-color: red;
+
+}
+
+
+.plans{
+	color: black;
+	padding-bottom: 20px;
+}
+.images{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.pricing{
+	background: white;
+	padding: 10px 20px 20px 20px;
+    text-align: center;
+}
+.fluidss{
+	padding-top: 80px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #DCDCDC;
+}
+.fluid{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.pricing-main {
+    background: white;
+    padding: 10px 20px 20px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    border-radius: 7px;
+}
+@media screen and (max-width: 1200px) and (min-width: 100px) {
+    .pricing-main {
+    background: #FFF;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    border-bottom: solid 1px #d5d5d5;
+    border-right: solid 1px #d5d5d5;
+    margin: 0;
+    position: relative;
+    margin: auto;
+}
+}
+ .ourstory{
+color: white;
+ }
+
+input[type=text]{
+	background-color: #DCDCDC;
+    color: white;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+input[type=email]{
+	background-color: #DCDCDC;
+    color: white;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+input[type=number]{
+	background-color: #DCDCDC;
+    color: white;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+
+.buttons{
+
+border:0;
+width:100%;
+padding: 6px;
+color: white;
+border-radius: 2px;}
+
+.storybtns{
+	padding: 10px 50px 10px 50px;
+	background-color: red;
+}
+
+.storybtn{
+	padding: 10px 50px 10px 50px;
+	background-color: #003366;
+}
+.black
+{
+	background: #000019;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+@media screen  (max-width: 800px) {
+	.planbtm{
+			padding-bottom: 50px;
+}
+
+}
+
+
+#headerwrap {
+	background: url(../img/header-background.png) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
+	
+
+    background-size: cover;
+}
+
+#headerwrap h1 {
+	color:#ffffff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+#headerwrap h4 {
+	font-weight: 400;
+	color: #ffffff
+}
+
+#social {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #f2f2f2;
+}
+
+#social i {
+	font-size: 40px;
+	color: #4a4a4a
+}
+
+#social i:hover {
+	color: #1abc9c
+}
+
+
+
+#footerwrap {
+	padding-top: 70px;
+	padding-bottom: 50px;
+	background-color: #2f2f2f;
+}
+
+#footerwrap p {
+	color: #f2f2f2;
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+#workwrap {	
+	background: url(../img/work.jpg) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
+
+    background-size: cover;
+}
+
+#workwrap h1 {
+	color:#ffffff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+#workwrap h4 {
+	font-weight: 400;
+	color: #ffffff
+}
+
+#aboutwrap {	
+	background: url(../img/about.jpg) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 550px;
+	width: 100%;
+	
+   
+    background-size: cover;
+}
+
+
+
+
+
+.gallery {
+	margin-top: 30px;
+}
+
+.gallery img:hover {
+	opacity: 0.4;
+}
